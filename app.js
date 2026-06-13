@@ -28,7 +28,7 @@ const translations = {
     'filter-photo':      'Photography',
     'proj1-title':       'The Forest Pavilion',
     'proj1-phase':       'Concept',
-    'proj2-title':       'No. 07 Lounge Chair',
+    'proj2-title':       'No. 07 Organic lamp',
     'proj2-phase':       'Prototype',
     'proj3-title':       'Raw Brutalism',
     'proj3-phase':       'Fine Art',
@@ -77,7 +77,7 @@ const translations = {
     'filter-photo':      'Фотографія',
     'proj1-title':       'Лісовий павільйон',
     'proj1-phase':       'Концепція',
-    'proj2-title':       'Крісло № 07',
+    'proj2-title':       'Еко Лампа № 07',
     'proj2-phase':       'Прототип',
     'proj3-title':       'Сирий брутализм',
     'proj3-phase':       'Образотворче мистецтво',
@@ -149,7 +149,7 @@ const heroImages = [
   { src: 'assets/architecture.png', alt: 'Architectural Concept — F4H' },
   { src: 'assets/architecture2.png', alt: 'Architectural Concept — 22' },
     { src: 'assets/architecture3.png', alt: 'Architectural Concept — HH' },
-  { src: 'assets/object.png',       alt: 'Object Design — No. 04 Organic lamp' },
+  { src: 'assets/object.png',       alt: 'Object Design — No. 07 Organic lamp' },
   { src: 'assets/photography.png',  alt: 'Photography — Raw Brutalism Series' },
 ];
 
@@ -318,15 +318,29 @@ filterButtons.forEach(btn => {
    ========================================================== */
 const projectData = [
   {
-    title: "The module",
-    category: "ARCHITECTURE",
-    phase: "Concept Study",
-    year: "2024",
-    image: "assets/architecture2.png",
-    description: "Situated at the water's edge, this structure acts as an interactive threshold between raw woodland and absolute shelter. Its flat raw concrete slab ceiling floats over minimalist structural glass facades, framing reflections of the lake while capturing shifting woodland shadows throughout the day. Built virtually using local raw oak accents, structural slate, and low-hydration concrete castings."
+
+  title: {
+    en: "The module",
+    uk: "Модуль"
   },
+  category: {
+    en: "ARCHITECTURE",
+    uk: "АРХІТЕКТУРА"
+  },
+  phase: {
+    en: "Concept Study",
+    uk: "Концептуальне дослідження"
+  },
+  year: "2024",
+  image: "assets/architecture2.png",
+  description: {
+    en: "Situated at the water's edge, this structure acts as an interactive threshold between raw woodland and absolute shelter.",
+    uk: "Розташована біля води, ця структура функціонує як інтерактивний поріг між диким лісовим середовищем і захищеним укриттям."
+  }
+
+},
   {
-    title: "No. 07 Lounge Lamp",
+    title: "No. 07 Organic Lamp",
     category: "OBJECT DESIGN",
     phase: "Prototype No. 01",
     year: "2025",
