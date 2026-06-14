@@ -150,7 +150,7 @@ const heroImages = [
   { src: 'assets/architecture2.png', alt: 'Architectural Concept — 22' },
     { src: 'assets/architecture3.png', alt: 'Architectural Concept — HH' },
   { src: 'assets/object.png',       alt: 'Object Design — No. 07 Organic lamp' },
-  { src: 'assets/photography.png',  alt: 'Photography — Raw Brutalism Series' },
+  { src: 'assets/photography.png',  alt: 'Photography — Raw Nature' },
 ];
 
 let heroIndex = 0;
@@ -334,7 +334,7 @@ const projectData = [
     description: "A study in organic sculptural curves and raw joints. Crafted entirely from select-grade oak wood, the chair combines robust joinery with a fluid, human-centric form. The profiles transition smoothly from heavy structural feet to floating, paper-thin curves. Designed with an emphasis on tactile grain texture, hand-finished with a simple oil wax coating."
   },
   {
-    title: "Raw Nature Brutalism",
+    title: "Raw Nature",
     category: "PHOTOGRAPHY",
     phase: "Fine Art Series",
     year: "2026",
